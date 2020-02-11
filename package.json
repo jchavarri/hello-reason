@@ -25,7 +25,7 @@
     "@opam/dune": "*",
     "@reason-native/console": "*",
     "@reason-native/pastel": "*",
-    "@esy-ocaml/reason": ">= 3.4.0 < 3.6.0",
+    "@esy-ocaml/reason": "*",
     "ocaml": "~4.8.1000"
   },
   "devDependencies": {
@@ -34,5 +34,8 @@
     "refmterr": "*",
     "ocaml": "~4.8.1000",
     "@opam/odoc": "*"
+  },
+  "resolutions": {
+    "@esy-ocaml/reason": "facebook/reason#8f71db0b88c31842d866d46a18b71a1ce1709567"
   }
 }
